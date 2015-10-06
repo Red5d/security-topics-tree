@@ -5,6 +5,39 @@
         "name": "Defense",
         "children": [
           {
+            "name": "Monitoring",
+            "children": [
+                {
+                    "name": "Intrusion Detection/Prevention Systems",
+                    "children": [
+                        {
+                            "name": "Attribution"
+                        },
+                        {
+                            "name": "False Positives/Negatives"
+                        }
+                    ]
+                },
+                {
+                    "name": "Logging"
+                },
+                {
+                    "name": "Service Monitoring",
+                    "children": [
+                        {
+                            "name": "Uptime"
+                        },
+                        {
+                            "name": "Error/Failure Alerting"
+                        },
+                        {
+                            "name": "Failover"
+                        }
+                    ]
+                }
+            ]
+          },
+          {
             "name": "Vulnerability Scanning",
             "children": [
                 {
