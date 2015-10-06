@@ -1,0 +1,353 @@
+{
+    "name": "Computer Security",
+    "children": [
+      {
+        "name": "Defense",
+        "children": [
+          {
+            "name": "Vulnerability Scanning",
+            "children": [
+                {
+                    "name": "Vulnerability Categorization/Rating"
+                },
+                {
+                    "name": "Risk Acceptance"
+                },
+                {
+                    "name": "Visualization and Reporting"
+                },
+                {
+                    "name": "Remediation Planning"
+                }
+            ]
+          },
+          {
+            "name": "OS Security",
+            "children": [
+                {
+                    "name": "Patching"
+                },
+                {
+                    "name": "Local Firewall Configuration"
+                },
+                {
+                    "name": "Access Control",
+                    "children": [
+                        {
+                            "name": "Local Authentication"
+                        },
+                        {
+                            "name": "Principle of Least Privilege"
+                        },
+                        {
+                            "name": "Network Authentication",
+                            "children": [
+                                {
+                                    "name": "LDAP"
+                                },
+                                {
+                                    "name": "Active Directory"
+                                },
+                                {
+                                    "name": "Kerberos"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+          },
+          {
+              "name": "Service Security",
+              "children": [
+                  {
+                      "name": "Databases"
+                  },
+                  {
+                      "name": "Remote Access"
+                  },
+                  {
+                      "name": "Web Services"
+                  },
+                  {
+                      "name": "Network Filesystems"
+                  },
+                  {
+                      "name": "Email"
+                  },
+                  {
+                      "name": "Load Balancing"
+                  }
+              ]
+          },
+          {
+              "name": "Network Security",
+              "children": [
+                  {
+                      "name": "BGP"
+                  },
+                  {
+                      "name": "DHCP",
+                      "children": [
+                          {
+                              "name": "Rogue DHCP Servers"
+                          },
+                          {
+                              "name": "IPv6 Router Advertisements"
+                          }
+                      ]
+                  },
+                  {
+                      "name": "DNS",
+                      "children": [
+                          {
+                              "name": "DNSSEC"
+                          },
+                          {
+                              "name": "Source IP Verification"
+                          }
+                      ]
+                  },
+                  {
+                      "name": "VLANs"
+                  },
+                  {
+                      "name": "Proxies",
+                      "children": [
+                          {
+                              "name": "Blocking"
+                          },
+                          {
+                              "name": "Caching"
+                          }
+                      ]
+                  },
+                  {
+                      "name": "Firewalls"
+                  },
+                  {
+                      "name": "Spanning Tree Protocol"
+                  }
+              ]
+          }
+        ]
+      },
+      {
+        "name": "Offense",
+        "children": [
+            {
+                "name": "Penetration Testing",
+                "children": [
+                    {
+                        "name": "Information Gathering",
+                        "children": [
+                            {
+                                "name": "User Account Enumeration"
+                            },
+                            {
+                                "name": "DNS Enumeration"
+                            },
+                            {
+                                "name": "URL Discovery"
+                            },
+                            {
+                                "name": "Network Service Discovery"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wireless Attacks",
+                        "children": [
+                            {
+                                "name": "WEP"
+                            },
+                            {
+                                "name": "WPA/WPA2"
+                            },
+                            {
+                                "name": "RFID"
+                            },
+                            {
+                                "name": "Software-Defined Radio"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Web Applications",
+                        "children": [
+                            {
+                                "name": "SQL Injection"
+                            },
+                            {
+                                "name": "Cross-Site Scripting (XSS)"
+                            },
+                            {
+                                "name": "Cookie/Parameter Manipulation"
+                            },
+                            {
+                                "name": "Cross-Site Request Forgery (CSRF)"
+                            },
+                            {
+                                "name": "Server Misconfigurations"
+                            },
+                            {
+                                "name": "SSL/TLS Downgrade"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sniffing & Spoofing",
+                        "children": [
+                            {
+                                "name": "DNS Spoofing"
+                            },
+                            {
+                                "name": "Man-in-the-Middle Attacks"
+                            },
+                            {
+                                "name": "Port Mirroring"
+                            },
+                            {
+                                "name": "LAN Taps"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Password Attacks",
+                        "children": [
+                            {
+                                "name": "Pass-The-Hash"
+                            },
+                            {
+                                "name": "Rainbow Tables"
+                            },
+                            {
+                                "name": "Hash Cracking"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hardware Hacking",
+                        "children": [
+                            {
+                                "name": "Firmware Extraction/Analysis"
+                            },
+                            {
+                                "name": "TEMPEST (passive EM monitoring)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stress Testing",
+                        "children": [
+                            {
+                                "name": "Fuzzing"
+                            },
+                            {
+                                "name": "DoS/DDoS"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reverse Engineering",
+                        "children": [
+                            {
+                                "name": "Simple Code Analysis"
+                            },
+                            {
+                                "name": "Deobfuscation"
+                            },
+                            {
+                                "name": "Binary Analysis"
+                            },
+                            {
+                                "name": "Malware Analysis"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Forensics",
+                        "children": [
+                            {
+                                "name": "Timeline Reconstruction"
+                            },
+                            {
+                                "name": "Hidden Files"
+                            },
+                            {
+                                "name": "Hidden Volumes"
+                            },
+                            {
+                                "name": "Slack Space"
+                            },
+                            {
+                                "name": "Timestamps"
+                            },
+                            {
+                                "name": "Attribution"
+                            },
+                            {
+                                "name": "Steganography"
+                            },
+                            {
+                                "name": "Encrypted Files/Volumes"
+                            },
+                            {
+                                "name": "Data Integrity"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maintaining Access",
+                        "children": [
+                            {
+                                "name": "Reverse Shells/Tunnels"
+                            },
+                            {
+                                "name": "Backdoors"
+                            },
+                            {
+                                "name": "RootKits"
+                            },
+                            {
+                                "name": "Process Migration"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reporting Results",
+                        "children": [
+                            {
+                                "name": "Case Files"
+                            },
+                            {
+                                "name": "Documentation"
+                            },
+                            {
+                                "name": "Timelines"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Social Engineering",
+                "children": [
+                    {
+                        "name": "Behavior Analysis"
+                    },
+                    {
+                        "name": "Access Duplication"
+                    },
+                    {
+                        "name": "Bluffing"
+                    },
+                    {
+                        "name": "Trust Building"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
